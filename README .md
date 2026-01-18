@@ -1,5 +1,6 @@
 # CI/CD Pipeline Implementation using GitHub Actions for a Python Application
 
+<img width="2556" height="1450" alt="image" src="https://github.com/user-attachments/assets/9f0fdf9c-ba74-4472-8697-11ddd6221ebe" />
 
 
 
@@ -30,6 +31,7 @@ The repository uses the following branches:
 
 Both branches are created and maintained to support environment-based deployments.
 
+<img width="1954" height="622" alt="image" src="https://github.com/user-attachments/assets/85b32311-d84a-4144-92b4-5685dedbeab8" />
 
 ---
 
