@@ -1,12 +1,7 @@
 # CI/CD Pipeline Implementation using GitHub Actions for a Python Application
 
-## Assignment Objective
 
-The objective of this assignment is to implement a CI/CD workflow using GitHub Actions for a Python application.
-The pipeline automates dependency installation, testing, build, and deployment to staging and production environments
-based on branch and release events.
 
----
 
 ## 1. Repository Setup
 
@@ -18,9 +13,11 @@ Repository Link:
 https://github.com/S-neha-01/Python-Github-Actions.git
 
 This repository contains:
-- A simple Python application
+- A simple Python application (Factorial)
 - Unit tests written using pytest
 - A requirements.txt file for dependency management
+
+<img width="2426" height="988" alt="image" src="https://github.com/user-attachments/assets/58772c3c-0a21-4540-b455-142ee27ca676" />
 
 ---
 
@@ -32,6 +29,7 @@ The repository uses the following branches:
 - staging – Used for validating changes before production
 
 Both branches are created and maintained to support environment-based deployments.
+
 
 ---
 
@@ -49,9 +47,9 @@ This directory is created at the root of the repository.
 
 ### 2.2 Workflow File
 
-A workflow file named ci-cd.yml is created inside the directory:
+A workflow file named ci.yml is created inside the directory:
 
-.github/workflows/ci-cd.yml
+.github/workflows/ci.yml
 
 This file defines the complete CI/CD pipeline.
 
@@ -67,6 +65,9 @@ The workflow is triggered on the following events:
 - Push to staging branch
 - Pull request to main branch
 - Creation of a release tag
+
+<img width="1962" height="656" alt="image" src="https://github.com/user-attachments/assets/d2633f87-8a51-4872-9309-fc01cdb954e5" />
+
 
 ---
 
@@ -128,11 +129,18 @@ The following secrets are configured in the repository:
 - STAGING_API_KEY
 - PROD_API_KEY
 
+<img width="2540" height="1416" alt="image" src="https://github.com/user-attachments/assets/55c1cea1-0bd0-43c9-b65b-9895a9b11bb9" />
+
+
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/0b5cfefc-c71c-44cf-9377-026c65a790a5" />
+
 These secrets are accessed securely inside the GitHub Actions workflow.
 
 The workflow configuration file is located at:
 
 .github/workflows/ci-cd.yml
+
+<img width="654" height="566" alt="image" src="https://github.com/user-attachments/assets/9346fecb-a884-4150-b048-f2199b731cb6" />
 
 ---
 
